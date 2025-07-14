@@ -333,6 +333,13 @@ section.show {
     color: #aaa;
 }
 
+.item,
+.image-row,
+.category {
+  opacity: 1 ;
+  transform: none ;
+}
+
 
 
 /* @media (max-width: 768px){
