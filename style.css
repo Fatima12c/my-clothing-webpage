@@ -13,6 +13,7 @@ html, body{
 }
 body{
     background: linear-gradient(#3369ff,white);
+   
 }
 
 header{
@@ -140,7 +141,7 @@ header>h1>span:hover{
 
 
 section {
-  opacity: 0;
+  opacity: 1;
   transform: translateY(50px);
   transition: all 0.6s ease-in-out;
 }
@@ -156,10 +157,12 @@ section.show {
 .about{
     width: 100%;
     /* margin: 10px 15px; */
-    
+    height: 100%;    
     padding: 15px 9px;
+    
     background: linear-gradient(to bottom, #000000,#3369ff);
     align-items: center;
+    background-size: cover;
     
 
 
@@ -167,10 +170,11 @@ section.show {
 .about>h1{
     color: white;
     text-align: center;
+    font-size: 3rem;
     
 }
 .about>p{
-    font-size: 2rem;
+    font-size: 4rem;
     text-align: center;
     font-weight: bold;
     color: rgb(16, 169, 39);
